@@ -35,7 +35,7 @@ contract DeployChallenges is ScaffoldETHDeploy {
      *      - Setup correct `deployer` account and funds it
      *      - Export contract addresses & ABIs to nextjs & scripts packages
      */
-    function run() external ScaffoldEthDeployerRunner {
+    function run() external ScaffoldEthDeployerRunner /* returns(address[] memory challangeAddresses) */{
         // Deploy NFTFlags
         NFTFlags nftFlags = new NFTFlags(deployer);
         console.log("NFT Flag contract deployed at", address(nftFlags));
