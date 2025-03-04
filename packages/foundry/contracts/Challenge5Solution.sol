@@ -1,7 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0 <0.9.0;
 
-import "./INFTFlags.sol";
 import {Challenge5} from "./Challenge5.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 

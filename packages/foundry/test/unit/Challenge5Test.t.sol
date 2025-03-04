@@ -4,7 +4,7 @@ pragma solidity >=0.8.0 <0.9.0;
 import {Test, console} from "forge-std/Test.sol";
 import {Challenge5Solution} from "../../contracts/Challenge5Solution.sol";
 import {Challenge5} from "../../contracts/Challenge5.sol";
-import {NFTFlagsMock} from "../mocks/NftFlagsMock.s.sol";
+import {NFTFlagsMock} from "../mocks/NftFlagsMock.sol";
 
 contract Challenge5Test is Test {
     Challenge5 challenge5Contract;

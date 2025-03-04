@@ -239,6 +239,51 @@ const deployedContracts = {
       deploymentFile: "run-1740780945.json",
       deploymentScript: "DeploySolution5.s.sol",
     },
+    Challenge6Solution: {
+      address: "0xbfa243816c7f80c2b853e61114716ae0240e4892",
+      abi: [
+        {
+          type: "constructor",
+          inputs: [
+            {
+              name: "_challenge6",
+              type: "address",
+              internalType: "address",
+            },
+          ],
+          stateMutability: "nonpayable",
+        },
+        {
+          type: "function",
+          name: "name",
+          inputs: [],
+          outputs: [
+            {
+              name: "",
+              type: "string",
+              internalType: "string",
+            },
+          ],
+          stateMutability: "pure",
+        },
+        {
+          type: "function",
+          name: "solve",
+          inputs: [
+            {
+              name: "_count",
+              type: "uint256",
+              internalType: "uint256",
+            },
+          ],
+          outputs: [],
+          stateMutability: "nonpayable",
+        },
+      ],
+      inheritedFunctions: {},
+      deploymentFile: "run-1741044942.json",
+      deploymentScript: "DeploySolution6.s.sol",
+    },
   },
   31337: {
     NFTFlags: {

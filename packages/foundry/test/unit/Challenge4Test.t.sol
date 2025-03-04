@@ -5,7 +5,7 @@ import {Test, console} from "forge-std/Test.sol";
 import {Challenge4Solution} from "../../contracts/Challenge4Solution.sol";
 import {DeploySolution4} from "../../script/DeploySolution4.s.sol";
 import {Challenge4} from "../../contracts/Challenge4.sol";
-import {NFTFlagsMock} from "../mocks/NftFlagsMock.s.sol";
+import {NFTFlagsMock} from "../mocks/NftFlagsMock.sol";
 import { ECDSA } from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
 import {MessageHashUtils} from "@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol";
 
