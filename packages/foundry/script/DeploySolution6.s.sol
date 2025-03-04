@@ -2,7 +2,6 @@
 pragma solidity ^0.8.19;
 
 import "./DeployHelpers.s.sol";
-import {Challenge6} from "../contracts/Challenge6.sol";
 import {Challenge6Solution} from "../contracts/Challenge6Solution.sol";
 
 /**
